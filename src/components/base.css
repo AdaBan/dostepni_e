@@ -1,18 +1,13 @@
-@font-face {
-  font-family: "Avenir";
-  font-weight: 400;
-  font-style: normal;
-  src: url("/avenir-400.woff2") format("woff2");
-  font-display: swap;
-}
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
 
 body {
-  font-family: "Avenir", Tahoma, Arial, Helvetica, sans-serif;
-  font-size: 1em;
-  line-height: 1.65;
-  color: #373F49;
-  background: #eee;
-  margin: 0;
+  font-family: 'Karla', Tahoma, Arial, Helvetica, sans-serif;
+  font-size: 21px;
+  font-weight: 300;
+  color: #373f49;
+  max-width: 768px;
+  padding: 0 16px;
+  margin: 0 auto;
 }
 
 img {
@@ -20,53 +15,45 @@ img {
   width: 100%;
 }
 
-h1,
-h2,
-h3 {
-  font-size: 2em;
-  font-weight: normal;
-}
-
 a {
   color: currentColor;
+}  
+
+ul {
+  list-style-type: none;
 }
 
-.wrapper {
-  width: calc(100% - 10vmin);
-  margin: 0 auto;
-  padding: 5vmin 0;
-}
 
-/**
- * article grid
- */
-.article-list {
+h1, 
+h2,
+h3 {
   margin: 0;
-  padding: 0;
-  list-style: none;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 5vmin;
+  padding-top: .5em;
+  padding-bottom: .75em;
+  line-height: 1.1;
+  letter-spacing: .01em;
 }
 
-/**
- *
- */
-.section-headline {
-  padding: 0 0 0.4em 0;
-  margin: 0 0 5vmin 0;
-  border-bottom: 1px solid #ddd;
+p {
+  margin-top: 0;
+  margin-bottom: 1em;
+  line-height: 1.5;
 }
 
-/**
- *
- */
-.list-inline {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+small {
+  display: block;
+  margin-bottom: 2em;
+  font-size: .75rem;
 }
 
-  .list-inline li {
-    display: inline-block;
-  }
+h1 {
+  font-size: 2.488rem;
+}
+
+h2 {
+  font-size: 2.074rem;
+}
+
+h3 {
+  font-size: 1.728rem;
+}
