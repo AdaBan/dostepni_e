@@ -5,14 +5,9 @@ body {
   font-size: 21px;
   font-weight: 300;
   color: #373f49;
-  max-width: 768px;
   padding: 0 16px;
-  margin: 0 auto;
-}
-
-img {
-  display: block;
-  width: 100%;
+  margin: 0;
+  letter-spacing: .01em;
 }
 
 a {
@@ -31,7 +26,7 @@ h3 {
   padding-top: .5em;
   padding-bottom: .75em;
   line-height: 1.1;
-  letter-spacing: .01em;
+  
 }
 
 p {
@@ -56,4 +51,8 @@ h2 {
 
 h3 {
   font-size: 1.728rem;
+}
+
+.gatsby-image-wrapper {
+  max-width: 320px !important;
 }
